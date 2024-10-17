@@ -58,14 +58,8 @@ const config: Config = {
 			'na': '#72828f',
 		},
 		fontFamily: {
-			// light: ['Inter-Light'],
-			// primary: ['Inter-Regular'],
-			// semiPrimary: ['semibold'],
-			// bold: ['Inter-Bold'],
-			// extraBold: ['Inter-ExtraBold'],
-			sans: ['var(--font-inter)']
-			//subHead , bodySmall , bodyLarge , h1, h2 , h3
-		},
+      sans: ['var(--font-inter)', 'sans-serif'],
+    },
 		container: {
 			center: true,
 		},
